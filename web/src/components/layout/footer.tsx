@@ -38,7 +38,7 @@ export default function Footer() {
           {Object.entries(footerLinks).map(([category, links]) => (
             <div key={category}>
               <div className="text-xs font-semibold uppercase tracking-widest mb-5 text-charcol">
-                {category}
+                <mark className="p-1">{category}</mark>
               </div>
               <ul className="space-y-1">
                 {links.map((link) => (

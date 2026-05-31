@@ -9,7 +9,7 @@ export default function Hero() {
 
       <div className="relative max-w-6xl mx-auto px-5 sm:px-8 pt-10 pb-12 text-center">
         {/* Badge */}
-        <div className="inline-flex items-center gap-2 bg-cream border border-cream text-charcol text-xl px-3.5 py-1.5 rounded-full mb-8">
+        <div className="inline-flex items-center gap-2 bg-cream border border-cream text-charcol text-xl px-3.5 py-1.5 rounded-full mb-8 ">
           AI-Powered Social Media Automation
         </div>
 
@@ -33,7 +33,7 @@ export default function Hero() {
         <div className="mt-7 flex flex-col sm:flex-row items-center justify-center gap-3">
           <Link
             to="/login"
-            className="bg-charcol text-white rounded font-medium hover:text-gray-400 inline-flex items-center gap-2 text-[15px] px-8 py-3.5 w-full sm:w-auto justify-center transition-all"
+            className="bg-charcol text-cream border-[1.5px] border-black/10 rounded font-medium hover:bg-black/5 hover:border-black/20 hover:text-charcol inline-flex items-center gap-2 text-[15px] px-8 py-3.5 w-full sm:w-auto justify-center transition-all"
           >
             Start for free <ArrowRightIcon className="size-4" />
           </Link>

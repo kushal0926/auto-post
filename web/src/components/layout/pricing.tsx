@@ -54,9 +54,11 @@ export default function Pricing() {
     <section id="pricing" className="py-24 bg-cream">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="text-center mb-16">
-          <div className="mb-6 inline-flex items-center gap-1.5 text-charcol text-xl font-medium tracking-[0.06em] uppercase">
-            <CircleCheckBigIcon className="size-5" />
-            Simple pricing
+          <div className="mb-6 inline-flex items-center gap-1.5 text-charcol text-xl font-medium tracking-[0.06em] uppercase underline">
+            <mark className="flex items-center gap-2">
+              <CircleCheckBigIcon className="size-5" />
+              Simple pricing
+            </mark>
           </div>
           <h2 className="font-medium text-4xl sm:text-5xl leading-tight text-gray-900">
             Plans for every stage
@@ -129,7 +131,7 @@ export default function Pricing() {
 
               <Link
                 to="/#"
-                className={`mt-auto text-center font-semibold text-sm px-6 py-3 rounded ${plan.highlight ? "bg-cream text-charcol hover:bg-" : "bg-charcol text-cream hover:text-gray-400"}`}
+                className={`mt-auto text-center font-semibold text-sm px-6 py-3 rounded ${plan.highlight ? "bg-cream text-charcol hover:bg-charcol hover:text-cream hover:border hover:border-white/10" : "bg-charcol text-cream border-[1.5px] border-black/10 rounded font-medium hover:bg-black/5 hover:border-black/20 hover:text-charcol inline-flex items-center gap-2 text-[15px] px-8 py-3.5 w-full sm:w-auto justify-center transition-all"}`}
               >
                 {plan.cta}
               </Link>

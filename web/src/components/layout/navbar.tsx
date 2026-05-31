@@ -48,7 +48,7 @@ export default function Navbar() {
             </Link>
             <Link
               to="/login"
-              className="flex items-center gap-1.5 text-sm bg-charcol hover:text-gray-400 text-cream px-4 py-3 rounded"
+              className="bg-charcol text-cream border-[1.5px] border-black/10 rounded font-medium hover:bg-black/5 hover:border-black/20 hover:text-charcol inline-flex items-center gap-2 text-[15px] px-3 py-3 w-full sm:w-auto justify-center transition-all"
             >
               Get Started <ArrowRightIcon className="size-4" />
             </Link>

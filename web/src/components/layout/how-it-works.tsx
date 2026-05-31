@@ -26,9 +26,11 @@ export default function HowItWorks() {
     <section id="how-it-works" className="py-24 bg-cream">
       <div className="max-w-4xl mx-auto px-4 sm:px-6">
         <div className="text-center mb-16">
-          <div className="mb-6 inline-flex items-center gap-1.5 text-charcol text-xl font-medium tracking-[0.06em] uppercase ">
-            <CheckCircleIcon className="size-5" />
-            Simple setup
+          <div className="mb-6 inline-flex items-center underline gap-1.5 text-charcol text-xl font-medium tracking-[0.06em] uppercase ">
+            <mark className="flex items-center gap-2">
+              <CheckCircleIcon className="size-5" />
+              Simple setup
+            </mark>
           </div>
           <h2 className="font-medium text-4xl sm:text-5xl leading-tight text-gray-900">
             Up and running in{" "}

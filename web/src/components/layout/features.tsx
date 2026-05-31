@@ -59,8 +59,10 @@ export default function Features() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="text-center mb-16">
           <div className="mb-6 inline-flex items-center gap-1.5  text-charcol text-xl font-medium tracking-[0.06em] uppercase px-3.5 py-1.5 rounded-full">
-            <ZapIcon className="size-5" />
-            Everything you need
+            <mark className="flex items-center gap-2">
+              <ZapIcon className="size-5" />
+              Everything you need
+            </mark>
           </div>
           <h2 className=" text-4xl sm:text-5xl font-medium leading-tight text-gray-900">
             Automate your entire
@@ -85,7 +87,7 @@ export default function Features() {
                 <f.icon className="size-5" />
               </div>
               <h3 className=" text-charcol mb-2 font-medium">{f.title}</h3>
-              <p className="text-sm text-slate-500/90 font-medium leading-relaxed">
+              <p className="text-sm text-gray-500 font-medium leading-relaxed">
                 {f.description}
               </p>
             </div>
