@@ -37,15 +37,15 @@ export default function Footer() {
           {/* Links */}
           {Object.entries(footerLinks).map(([category, links]) => (
             <div key={category}>
-              <div className="text-xs font-semibold uppercase tracking-widest mb-5 text-charcol">
-                <mark className="p-1">{category}</mark>
+              <div className="text-sm underline font-semibold uppercase tracking-widest mb-5 text-charcol">
+                {category}
               </div>
               <ul className="space-y-1">
                 {links.map((link) => (
                   <li key={link}>
                     <a
                       href="#"
-                      className="text-sm font-medium text-gray-500 hover:text-gray-900"
+                      className="text-sm font-medium text-gray-500 hover:text-gray-900 hover:underline"
                     >
                       {link}
                     </a>
@@ -68,19 +68,19 @@ export default function Footer() {
           <div className="flex items-center gap-6">
             <a
               href="#"
-              className="text-xs text-gray-500 hover:text-gray-700 font-medium"
+              className="text-xs text-gray-500 hover:text-gray-700 font-medium hover:underline"
             >
               Privacy Policy
             </a>
             <a
               href="#"
-              className="text-xs text-gray-500 hover:text-gray-700 font-medium"
+              className="text-xs text-gray-500 hover:text-gray-700 font-medium hover:underline"
             >
               Terms of Service
             </a>
             <Link
               to="/login"
-              className="text-xs text-gray-500 hover:text-gray-700 font-medium"
+              className="text-xs text-gray-500 hover:text-gray-700 font-medium hover:underline"
             >
               Sign In
             </Link>

@@ -46,7 +46,7 @@ export default function HowItWorks() {
 
         <div className="space-y-6">
           {steps.map((s, i) => (
-            <div key={s.step} className="flex gap-6 items-start">
+            <div key={s.step} className="flex gap-6 items-start ">
               <div className="shrink-0 size-12  flex items-center justify-center">
                 <span className="text-xl font-medium text-charcol">
                   {s.step}

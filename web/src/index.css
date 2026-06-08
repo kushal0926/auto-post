@@ -17,6 +17,7 @@
     color: var(--custom-black);
     background: var(--custom-white);
     font-family: "Roboto Mono", monospace;
+    scroll-behavior: smooth;
   }
 
   body {

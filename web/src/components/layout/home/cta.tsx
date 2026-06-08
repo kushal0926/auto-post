@@ -5,10 +5,10 @@ export default function CTA() {
   return (
     <section className="py-20 bg-cream">
       <div className="max-w-6xl mx-auto px-5 sm:px-8">
-        <div className="relative rounded overflow-hidden p-14 sm:p-20 text-center border border-black/10">
+        <div className="relative rounded overflow-hidden p-14 sm:p-20 text-center border border-black/10 hover:bg-black/1">
           <div className="relative">
             <div className="mb-6 inline-flex items-center gap-1.5 text-charcol text-xl font-medium tracking-[0.06em] uppercase underline">
-              <mark>Ready to grow?</mark>
+              <mark className="py-1 font-bold">Ready to grow?</mark>
             </div>
             <h2 className="text-4xl sm:text-5xl md:text-6xl leading-tight font-medium text-gray-900">
               Automate your social
@@ -19,7 +19,8 @@ export default function CTA() {
             </h2>
             <p className="mt-6 text-gray-700 max-w-lg mx-auto text-lg font-medium">
               Join thousands of creators and marketers who trust{" "}
-              <mark>AutoPost</mark> to grow their audience on autopilot.
+              <mark className="py-1 font-bold text-xl">AutoPost</mark> to grow
+              their audience on autopilot.
             </p>
 
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-3">
