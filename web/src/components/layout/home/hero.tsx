@@ -9,8 +9,8 @@ export default function Hero() {
 
       <div className="relative max-w-6xl mx-auto px-5 sm:px-8 pt-10 pb-12 text-center">
         {/* Badge */}
-        <div className="inline-flex items-center gap-2 bg-cream border border-cream text-charcol text-xl px-3.5 py-1.5 rounded-full mb-8 ">
-          AI-Powered Social Media Automation
+        <div className="inline-flex items-center gap-2 bg-cream border border-cream text-charcol text-sm  px-3.5 py-1.5 rounded-full mb-8 md:text-xl">
+          AI-Powered <mark>Social Media</mark> Automation
         </div>
 
         {/* Headline */}
@@ -25,8 +25,9 @@ export default function Hero() {
         {/* Subheadline */}
         <p className="mt-7 font-medium text-gray-700 max-w-2xl mx-auto">
           AutoPost lets you create, schedule, and auto-engage across all your
-          social platforms — powered by AI that writes your captions and replies
-          for you.
+          social platforms —{" "}
+          <mark className="py-1 font-bold text-xl">powered by AI</mark> that
+          writes your captions and replies for you.
         </p>
 
         {/* CTAs */}
@@ -45,8 +46,9 @@ export default function Hero() {
           </a>
         </div>
 
-        <p className="mt-5 text-xl text-gray-700">
-          No credit card required · Free forever plan available
+        <p className="mt-5 text-sm md:text-xl text-gray-700">
+          No credit card required · <mark className="py-1">Free forever</mark>{" "}
+          plan available
         </p>
       </div>
 

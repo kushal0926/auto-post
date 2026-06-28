@@ -72,8 +72,9 @@ export default function Features() {
             </span>
           </h2>
           <p className="mt-5 font-medium text-gray-700 max-w-xl mx-auto leading-relaxed">
-            From content creation to scheduling — Scheduler handles it all so
-            you can focus on what matters most.
+            From content creation to scheduling —{" "}
+            <mark className="py-1 font-bold text-xl">AutoPost</mark> handles it
+            all so you can focus on what matters most.
           </p>
         </div>
 
@@ -81,9 +82,9 @@ export default function Features() {
           {features.map((f) => (
             <div
               key={f.title}
-              className="bg-cream rounded border border-charcol/10 p-6 hover:border-slate-200 hover:shadow-md hover:shadow-slate-100 group"
+              className="bg-cream rounded border border-charcol/10 p-6 hover:bg-black/1  hover:border-black/20 hover:text-charcol"
             >
-              <div className={`size-10 flex items-center justify-center mb-4 `}>
+              <div className={`size-10 flex items-center justify-center mb-4 rounded ${f.color}`}>
                 <f.icon className="size-5" />
               </div>
               <h3 className=" text-charcol mb-2 font-medium">{f.title}</h3>
