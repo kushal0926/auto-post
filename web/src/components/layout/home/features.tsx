@@ -84,7 +84,7 @@ export default function Features() {
               key={f.title}
               className="bg-cream rounded border border-charcol/10 p-6 hover:bg-black/1  hover:border-black/20 hover:text-charcol"
             >
-              <div className={`size-10 flex items-center justify-center mb-4 `}>
+              <div className={`size-10 flex items-center justify-center mb-4 rounded ${f.color}`}>
                 <f.icon className="size-5" />
               </div>
               <h3 className=" text-charcol mb-2 font-medium">{f.title}</h3>

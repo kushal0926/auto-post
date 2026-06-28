@@ -33,3 +33,20 @@
     font-family: monospace;
   }
 }
+
+.custom-background {
+  background: var(--custom-black);
+  background-image:
+    radial-gradient(
+      1200px 600px at 20% 0%,
+      rgba(236, 229, 211, 0.025),
+      transparent 60%
+    ),
+    radial-gradient(
+      900px 700px at 90% 30%,
+      rgba(190, 140, 90, 0.018),
+      transparent 70%
+    ),
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.93 0 0 0 0 0.90 0 0 0 0 0.83 0 0 0 0.05 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+  background-attachment: fixed, fixed, fixed;
+}
